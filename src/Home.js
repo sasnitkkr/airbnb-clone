@@ -1,10 +1,13 @@
-import React from 'react'
-import './Home.css'
+import React from "react";
+import Banner from "./Banner";
+import "./Home.css";
 
 function Home() {
   return (
-    <div className='home'>Home</div>
-  )
+    <div className="home">
+      <Banner />
+    </div>
+  );
 }
 
-export default Home
+export default Home;
